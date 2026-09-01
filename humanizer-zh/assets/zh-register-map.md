@@ -91,13 +91,13 @@
 
 ## 出处
 
-- 【实验】post/inputs/ai-flavor/experiment/EXPERIMENT-NOTES.md（发现C/D、
+- 【实验】experiment/EXPERIMENT-NOTES.md（发现C/D、
   局限2）与 findings.md（题型×模型明细、句长 CV、最浓/最淡单元）
-- 【研02】post/inputs/ai-flavor/research/02-chinese-vs-english.md（光明日报
+- 【研02】examples/research/02-chinese-vs-english.md（光明日报
   "AI 新八股"三表现、小红书误伤案例）
-- 【研04】post/inputs/ai-flavor/research/04-detection-and-humanizer.md
+- 【研04】examples/research/04-detection-and-humanizer.md
   （知网 86.8% 反智降重案例、HumT"用户未必想要人味"）
-- 【研05】post/inputs/ai-flavor/research/05-related-work.md（Berber Sardinha
+- 【研05】examples/research/05-related-work.md（Berber Sardinha
   语体偏移学术先例、皇甫博媛"AI味与人机感"中文传播学论文）
 - 光明日报：epaper.gmw.cn/gmrb/html/content/202605/17/content_13811.html
 - HumT：arxiv.org/abs/2502.13259

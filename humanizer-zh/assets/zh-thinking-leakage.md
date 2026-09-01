@@ -97,7 +97,7 @@ delivery responses"）【研03】。
 - **真实案例**："你刚刚那句话其实已经很接近一句总结式表达了，我帮你轻轻拧
   一下，不改你意思。"（V2EX【研02】）
 - **依据**：sycophancy 是偏好数据实证奖励出的行为【Sharma 等 2023，研05】；
-  谄媚残留清单见 tb-deai-style L1。
+  谄媚残留见本文件 X7 类。
 - **清法**：整句删；交付文只保留交付内容。
 
 ## X8 内心戏/草稿纸当内容（中文互联网特有变体）
@@ -118,14 +118,14 @@ delivery responses"）【研03】。
 
 ## 出处
 
-- 【研03】post/inputs/ai-flavor/research/03-cot-leakage-and-agents.md（本库
+- 【研03】examples/research/03-cot-leakage-and-agents.md（本库
   主体证据：R1 Table 3 原句、o1 hidden CoT、试卷 7.41 秒案例、GitLab Duo
   #2437、lettabot #530、QwQ 模型卡、内心戏刷屏与"草稿纸"定性、claude-code
   #85130、aislop、Sketchpad、VS Code Mermaid、Agentic Blabbering、"I will
   now"案例空白标注）
-- 【研02】post/inputs/ai-flavor/research/02-chinese-vs-english.md（V2EX 讨好型
+- 【研02】examples/research/02-chinese-vs-english.md（V2EX 讨好型
   元话语原句）
-- 【研05】post/inputs/ai-flavor/research/05-related-work.md（Sharma 等
+- 【研05】examples/research/05-related-work.md（Sharma 等
   sycophancy 实证、Thoughtology 思考痕迹分类学）
 - DeepSeek R1：arxiv.org/abs/2501.12948
 - o1 模型卡摘录：simonwillison.net/2024/Sep/12/openai-o1/

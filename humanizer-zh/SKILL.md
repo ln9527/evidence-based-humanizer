@@ -22,8 +22,8 @@ description: |
   source (research dossiers 02/03/04/05 + the 108-sample experiment,
   findings A-E). Use when a Chinese text is flagged as AI-flavored, or when
   thinking/agent traces leaked into a deliverable. Do NOT use for English
-  text (use blader/humanizer), for the AI-management textbook (use
-  tb-deai-style then tb-humanizer), for beating AI detectors, or for
+  text (use blader/humanizer), for special-purpose
+  project pipelines (use the project's own pipeline), for beating AI detectors, or for
   fact-checking.
   Chinese triggers: 去AI味、人味、人味化、deslop、去味、中文润色、AI腔、
   机器味、AI感、不像AI写的、太像AI、没有人味、思维链泄露、内心戏、
@@ -53,9 +53,9 @@ description: |
    痕迹里的数字（如 UI 残留"用时 7.41 秒"【研03】）是待删残留，不是内容
    事实。
 3. **信息密度不降**：删掉的字必须是无信息量的字；删后论证链、反例、证据一
-   个不能少（同库教材前例 tb-deai-style §1 质量红线，本 skill 沿用）。
+   个不能少。
 4. **不新造具体细节**：需要具体的人/数/场景时走 Stage 3 追问协议，禁止为
-   "去味"编造事实性细节（tb-deai-style"数字禁新造"红线同款）。
+   "去味"编造事实性细节。
 5. **打破默认 ≠ 替换默认**【研05·沈志荣】：禁止把"删排比"做成"逢三拆二"、
    把"删套话"做成"逢句插口语词"——那是用一个新模板替换旧模板。
 6. **语境门控总则**【实验·发现D】：赋能/抓手/闭环/深耕等"铁证黑话"在 108
@@ -74,8 +74,7 @@ description: |
 
 **不用本 skill**：
 1. 英文文本 → 用 blader/humanizer（维基百科 35 模式两遍改写）【研04】；
-2. AI 与管理教材项目 → 用教材专用二步对 tb-deai-style（减法）→ tb-humanizer
-   （加法），见 §8 分工，不调用本 skill；
+2. 若你的项目已有专用文风流水线 → 优先走专用流水线，两套规则不要叠跑；
 3. 目标是"降 AI 检测率/过朱雀/过知网"→ 拒绝作为目标（§7.d 声明照录）；
 4. 任务是事实核验、语法纠错、或学术不端意义上的"降重"→ 不是本 skill；
 5. 人类手写但"看起来像 AI"的文本 → 先告知误伤风险（小红书用户自写口播文案
@@ -110,13 +109,12 @@ C. 营销文案；D. 学术。判定依据：用户声明的目标场合优先�
 - 语境 B/C → 黑话层命中 ≈0 属预期，**主查抒情腔层与衔接套话层**【实验·
   发现D：这才是 2026 年默认输出的主味】；
 - 语境 D → 叠加"无源权威"检查（无引注的"研究表明/数据显示/专家指出"）
-  【tb-deai-style L1 同款清单】。
+  。
 
 ### 3.2 五类打分（每千字，输出分表）
 按 assets/zh-lexicon.md 与 assets/zh-patterns.md 逐层计数，除以千字数：
 1. **空洞升华**：意义拔高词（见证/塑造/勾勒/画卷/新篇章…）+ 段尾升华句
-   （让我们拭目以待/未来可期/这，就是…的力量）【cn-humanizer 宣传腔与意义
-   拔高类；光明日报"正确的空话"定性，研02】；
+   （让我们拭目以待/未来可期/这，就是…的力量）【cn-humanizer 宣传腔与意义拔高类；光明日报"正确的空话"定性，研02】；
 2. **模板句式**：不仅…而且 / 不是…而是 / 随着…的发展 / 在…时代 / 首先-
    其次-最后 / 排比三连 / 四字格堆叠 / 同义词循环 / "的"字连珠 / 通过…从而 /
    在…方面【anti-vibe 五大句式；cn-humanizer 18 模式；deslop-zh 速查清单】；
@@ -146,7 +144,7 @@ C. 营销文案；D. 学术。判定依据：用户声明的目标场合优先�
    连接词；实验·发现D：默认输出真正高频之一；简圣宇："虚假逻辑连贯性的
    装饰"，研02】。删法：只删引导词，其后实质判断保留。
 2. **开场套话**：随着…的发展 / 在当今…时代 / 在…的今天 / 众所周知 /
-   毋庸置疑【deslop-zh 速查清单；anti-vibe；tb-deai-style L1】。删法：整句
+   毋庸置疑【deslop-zh 速查清单；anti-vibe】。删法：整句
    删，直接从第一个实质句开始。
 3. **总结尾套话**：这说明 / 可以看出 / 由此可见 / 不难看出 / 到这里
    【deslop-zh；ninehills】。删法：删套话引导词；若其后判断只是前文复述，
@@ -162,7 +160,7 @@ C. 营销文案；D. 学术。判定依据：用户声明的目标场合优先�
    语境 B 命中 ≈0，不要为删而找【实验·发现D；cn-humanizer 一级词】。若该词
    承载实义（真实项目名、既定术语），保留并记录理由。
 7. **删除测试（每处删除前必做）**：删掉这句，读者获取的信息有损失吗？
-   有 → 只压缩不删；无 → 删【tb-deai-style 删除测试同款】。一次删除超过
+   有 → 只压缩不删；无 → 删。一次删除超过
    2 句的论证性段落，降级为"建议删除 + 标 `[DEL-CHECK]` 待人工确认"，
    不直接落盘。
 
@@ -195,7 +193,7 @@ C. 营销文案；D. 学术。判定依据：用户声明的目标场合优先�
 
 ### 5.3 改写自检（每轮 Stage 3 后必做）
 - 随机抽三段问：这是"这个作者真会说的"，还是"模板生成的'人味腔'"？答不出
-  区别 → 回滚该处，宁可少改【tb-humanizer 反自查同款】；
+  区别 → 回滚该处，宁可少改；
 - 新引入的口语句式不得跨段复用——复用即新模板【红线5】；
 - 改写中不得出现"我现在将…/接下来我们…"式过程叙述：那是 Stage 4 的清扫
   对象，而改写动作本身最容易把它带进来【研03】。
@@ -234,14 +232,13 @@ C. 营销文案；D. 学术。判定依据：用户声明的目标场合优先�
   【研03 C 节】。清法：删叙述，保留"是什么"的功能性注释。
 7. **讨好型元话语与对话残留**："你刚刚那句话其实已经很接近一句总结式表达
    了，我帮你轻轻拧一下，不改你意思。"（V2EX 实例）【研02】；"好的，下面
-   是…/当然可以/这是一个非常好的问题"【tb-deai-style L1 谄媚残留清单】。
+   是…/当然可以/这是一个非常好的问题"。
    交付文里只保留交付内容。
 
 ## 7. Stage 5 终检（四项全过才交稿）
 
 a. **事实零改动 diff**：逐 hunk 对比改写前后，数字/引语/出处/案例事实一字
-   不动；任何疑似必要的事实级改动，标 `[NUM-CHECK]` 转人工，不落盘【红线2；
-   tb-deai-style `[NUM-CHECK]` 通道同款】。
+   不动；任何疑似必要的事实级改动，标 `[NUM-CHECK]` 转人工，不落盘【红线2】。
 b. **重跑 Stage 1**：输出前后对比分表。达标线（方向性指标，绝对值仅参考
   【实验·局限：n=3/格、社区词表非金标准】）：
    - 总标记词 ≤ 4.0/千字（实验最淡档：glm-5.3 为 3.70、关思维档 3.96）；
@@ -265,27 +262,12 @@ HumT 研究发现许多场景用户反而更不喜欢拟人化输出，拟人语
 研04】。以下三条任一成立即停手并向用户说明：功能文体（API 文档/法律/规范
 公文）；用户未抱怨 AI 味；第 3 轮边际降幅 < 10%。
 
-## 8. 与 tb-deai-style / tb-humanizer 的分工（防重复劳动）
-
-| | tb-deai-style + tb-humanizer | humanizer-zh（本 skill） |
-|---|---|---|
-| 对象 | AI 与管理教材（专库专用） | 任意中文交付文（通用） |
-| 结构 | 二步对：先减法、再注入作者人味 | 五阶段循环流水线 |
-| 语料锚 | 教材作者语料三档案 | ai-flavor 研究四档案 + 108 篇实验 |
-| 特色 | 密度账本、作者人格三词诀 | 思维链泄露清洗（Stage 4）、语境门控 |
-| 优先级 | 教材项目内优先 | 教材项目**不得**调用本 skill |
-
-两把刀不叠跑：通用稿件若属教材项目，标 `[DEAI-RESIDUE]` 退回教材二步对
-处理，不在本 skill 内顺手改，防止互相覆盖产出【tb-humanizer §1 同款原则】。
-
 ## Sources
 
-研究档案（本 skill 证据基础；路径相对 post/inputs/ai-flavor/）：
-- research/02-chinese-vs-english.md — 中文特征词表/句式/公文腔×翻译腔
-- research/03-cot-leakage-and-agents.md — 思维链泄露/agent 痕迹/自用图
-- research/04-detection-and-humanizer.md — 检测失败史/humanizer 谱系/HumT
-- research/05-related-work.md — 相关工作与署名纪律
+研究档案（本 skill 证据基础；随仓库发布，路径相对仓库根目录）：
+- examples/related-work.md — 相关工作与署名纪律（含各研究出处）
 - experiment/EXPERIMENT-NOTES.md、experiment/findings.md — 108 篇实验（发现 A–E）
+- examples/leakage-examples.md — 两本未经清洗书稿的泄露扫描一手样本
 
 外部来源：
 - cn-humanizer 词表：github.com/0xtresser/cn-humanizer
@@ -310,4 +292,3 @@ HumT 研究发现许多场景用户反而更不喜欢拟人化输出，拟人语
 - Sadasivan 等 2023：arxiv.org/abs/2303.11150
 - JHU humanizer 边界（Rivera Soto 等）：arxiv.org/abs/2505.14608
 - Stanford HumT（Cheng, Yu & Jurafsky）：arxiv.org/abs/2502.13259
-- 教材前例：ning-embodied-knowledge 库 skills/owned/tb-deai-style、tb-humanizer

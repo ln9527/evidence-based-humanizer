@@ -13,8 +13,8 @@
 |---|---|
 | 赋能 | cn-humanizer 一级"铁证"词，被称为"互联网黑话之王"【研02】 |
 | 抓手、闭环、深耕、聚焦 | cn-humanizer 一级"铁证"词【研02】 |
-| 助力 | 委托规格补充※，常见于商务诱导语境 |
-| 打通、沉淀、拉通、底层逻辑、链路、生态位、破圈、躬身入局 | tb-deai-style L1 黑话清单（教材库前例，词单交叠） |
+| 助力 | 审校补充※，常见于商务诱导语境 |
+| 打通、沉淀、拉通、底层逻辑、链路、生态位、破圈、躬身入局 | 常见商务黑话清单（多来源词单交叠） |
 
 - **实证数据**：108 篇默认输出（4 题型 × 9 模型档）中，公文黑话列全员
   **0.0/千字**【实验·findings】。社区"出现率是人类 5–20 倍"的断言无学术
@@ -29,9 +29,9 @@
 |---|---|
 | 值得注意的是、值得一提的是、需要指出的是 | cn-humanizer 二级连接词【研02】 |
 | 综上所述、总而言之、总的来说 | cn-humanizer 二级连接词【研02】 |
-| 首先 / 其次 / 最后 | 作段落标头时计；真实枚举引导不计【tb-deai-style 语境判断词】 |
-| 与此同时 | 委托规格补充※ |
-| 一方面 / 另一方面 | 虚假平衡标记【tb-deai-style L4】 |
+| 首先 / 其次 / 最后 | 作段落标头时计；真实枚举引导不计 |
+| 与此同时 | 审校补充※ |
+| 一方面 / 另一方面 | 虚假平衡标记 |
 
 - **实证数据**：默认输出高频类之一；claude-sonnet-5 达 **2.95/千字**（全场
   最高），glm-5.3 为 1.57、gemini-3.7 为 1.74【实验·findings】。
@@ -42,8 +42,8 @@
 
 | 词条 | 属性 |
 |---|---|
-| 见证、塑造、勾勒、深刻、画卷 | 委托规格补充※——层定义出自 cn-humanizer"宣传腔与意义拔高短语"类【研02/研04】，词条未经独立实验验证，按语境判断 |
-| 新篇章、谱写（新篇章）、未来可期 | tb-deai-style L3"金句强迫/结尾升华"清单（教材库前例） |
+| 见证、塑造、勾勒、深刻、画卷 | 审校补充※——层定义出自 cn-humanizer"宣传腔与意义拔高短语"类【研02/研04】，词条未经独立实验验证，按语境判断 |
+| 新篇章、谱写（新篇章）、未来可期 | "金句强迫/结尾升华"类清单 |
 | 这，就是…的力量、唯有…方能… | 同上 |
 | 让我们（共同）…、让我们拭目以待 | cn-humanizer 改写对比原例的组成部分【研04】 |
 
@@ -92,19 +92,18 @@
 
 ## 出处
 
-- 【研02】post/inputs/ai-flavor/research/02-chinese-vs-english.md（cn-humanizer
+- 【研02】examples/research/02-chinese-vs-english.md（cn-humanizer
   分级词表转述、虎嗅 DeepSeek 常用词、光明日报"AI 新八股"、简圣宇官腔定性、
   "出现率 5–20 倍"为社区断言的提醒）
-- 【研04】post/inputs/ai-flavor/research/04-detection-and-humanizer.md
+- 【研04】examples/research/04-detection-and-humanizer.md
   （cn-humanizer 18 种模式与改写对比、blader 模式#10）
-- 【实验】post/inputs/ai-flavor/experiment/EXPERIMENT-NOTES.md 与
+- 【实验】experiment/EXPERIMENT-NOTES.md 与
   findings.md（108 篇、发现 A/B/D/E、分模型分层数据）
 - cn-humanizer：github.com/0xtresser/cn-humanizer（词表
   references/cn-ai-vocabulary.md）
 - 虎嗅/直面AI DeepSeek 味报道：163.com/dy/article/K3BNBNUQ051188EA.html
 - 光明日报（刘明华）：epaper.gmw.cn/gmrb/html/content/202605/17/content_13811.html
 - 简圣宇（中国社会科学报）：cssn.cn/skgz/bwyc/202607/t20260703_6057355.shtml
-- 教材库前例：ning-embodied-knowledge/skills/owned/tb-deai-style/SKILL.md（L1
   黑话清单、L4 语境判断词、L3 升华句式）
-- ※ 委托规格补充：本 skill 建库规格中指定但研究档案未单独溯源的词条
+- ※ 审校补充：建库时人工增补、公开研究未单独溯源的词条（经验词，按语境判断）
   （助力/与此同时/见证/塑造/勾勒/深刻/画卷），按"层有出处、词条待验"处理。
