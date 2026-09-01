@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="631.822461pt" height="247.248pt" viewBox="0 0 631.822461 247.248" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="679.132266pt" height="247.248pt" viewBox="0 0 679.132266 247.248" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-01T09:42:45.168780</dc:date>
+    <dc:date>2026-09-01T11:09:47.601610</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -22,44 +22,44 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 247.248 
-L 631.822461 247.248 
-L 631.822461 0 
+L 679.132266 247.248 
+L 679.132266 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 15.33433 181.836 
-Q 314.098739 181.836 610.62708 181.836 
+    <path d="M 32.425463 181.836 
+Q 331.189871 181.836 627.718212 181.836 
 " style="fill: none; stroke: #1a1a2e; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 606.62708 179.836 
-L 610.62708 181.836 
-L 606.62708 183.836 
+    <path d="M 623.718212 179.836 
+L 627.718212 181.836 
+L 623.718212 183.836 
 z
 " style="fill: #1a1a2e; stroke: #1a1a2e; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="mec56e12dc4" d="M 0 5.477226 
-C 1.452577 5.477226 2.845856 4.900111 3.872983 3.872983 
-C 4.900111 2.845856 5.477226 1.452577 5.477226 0 
-C 5.477226 -1.452577 4.900111 -2.845856 3.872983 -3.872983 
-C 2.845856 -4.900111 1.452577 -5.477226 0 -5.477226 
-C -1.452577 -5.477226 -2.845856 -4.900111 -3.872983 -3.872983 
-C -4.900111 -2.845856 -5.477226 -1.452577 -5.477226 0 
-C -5.477226 1.452577 -4.900111 2.845856 -3.872983 3.872983 
-C -2.845856 4.900111 -1.452577 5.477226 0 5.477226 
+     <path id="md55d8c8ece" d="M 0 6.519202 
+C 1.728913 6.519202 3.387246 5.832298 4.609772 4.609772 
+C 5.832298 3.387246 6.519202 1.728913 6.519202 0 
+C 6.519202 -1.728913 5.832298 -3.387246 4.609772 -4.609772 
+C 3.387246 -5.832298 1.728913 -6.519202 0 -6.519202 
+C -1.728913 -6.519202 -3.387246 -5.832298 -4.609772 -4.609772 
+C -5.832298 -3.387246 -6.519202 -1.728913 -6.519202 0 
+C -6.519202 1.728913 -5.832298 3.387246 -4.609772 4.609772 
+C -3.387246 5.832298 -1.728913 6.519202 0 6.519202 
 z
 " style="stroke: #8a8a8a"/>
     </defs>
-    <g clip-path="url(#pe5743bbb0c)">
-     <use xlink:href="#mec56e12dc4" x="99.27" y="181.836" style="fill: #8a8a8a; stroke: #8a8a8a"/>
+    <g clip-path="url(#p6530269b34)">
+     <use xlink:href="#md55d8c8ece" x="116.361133" y="181.836" style="fill: #8a8a8a; stroke: #8a8a8a"/>
     </g>
    </g>
    <g id="text_1">
     <!-- 第一代 2022–2023 -->
-    <g style="fill: #1a1a2e" transform="translate(46.529297 155.6406) scale(0.11 -0.11)">
+    <g style="fill: #1a1a2e" transform="translate(46.839297 152.73) scale(0.145 -0.145)">
      <defs>
       <path id="HiraginoSansGB-W3-7b2c" d="M 3014 205 
 L 3014 -90 
@@ -314,7 +314,7 @@ z
    </g>
    <g id="text_2">
     <!-- 空洞的流畅 -->
-    <g style="fill: #8a8a8a" transform="translate(64.27 109.071) scale(0.14 -0.14)">
+    <g style="fill: #8a8a8a" transform="translate(71.361133 106.1604) scale(0.18 -0.18)">
      <defs>
       <path id="HiraginoSansGB-W3-7a7a" d="M 1235 4582 
 C 992 4582 826 4589 589 4614 
@@ -691,7 +691,7 @@ z
    </g>
    <g id="text_3">
     <!-- 正确的废话 · 免责声明 · LinkedIn腔 -->
-    <g style="fill: #1a1a2e" transform="translate(16.307539 71.2332) scale(0.095 -0.095)">
+    <g style="fill: #1a1a2e" transform="translate(7.2 68.3226) scale(0.125 -0.125)">
      <defs>
       <path id="HiraginoSansGB-W3-6b63" d="M 3597 256 
 L 3597 2368 
@@ -1495,7 +1495,7 @@ z
    </g>
    <g id="text_4">
     <!-- 本质：平（概率平均） -->
-    <g style="fill: #8a8a8a" transform="translate(51.77 208.0314) scale(0.095 -0.095)">
+    <g style="fill: #8a8a8a" transform="translate(53.861133 210.942) scale(0.125 -0.125)">
      <defs>
       <path id="HiraginoSansGB-W3-672c" d="M 2938 4186 
 L 1146 4186 
@@ -1972,25 +1972,25 @@ z
    </g>
    <g id="PathCollection_2">
     <defs>
-     <path id="mc91ae3d1d0" d="M 0 5.477226 
-C 1.452577 5.477226 2.845856 4.900111 3.872983 3.872983 
-C 4.900111 2.845856 5.477226 1.452577 5.477226 0 
-C 5.477226 -1.452577 4.900111 -2.845856 3.872983 -3.872983 
-C 2.845856 -4.900111 1.452577 -5.477226 0 -5.477226 
-C -1.452577 -5.477226 -2.845856 -4.900111 -3.872983 -3.872983 
-C -4.900111 -2.845856 -5.477226 -1.452577 -5.477226 0 
-C -5.477226 1.452577 -4.900111 2.845856 -3.872983 3.872983 
-C -2.845856 4.900111 -1.452577 5.477226 0 5.477226 
+     <path id="m6cbf3e14d4" d="M 0 6.519202 
+C 1.728913 6.519202 3.387246 5.832298 4.609772 4.609772 
+C 5.832298 3.387246 6.519202 1.728913 6.519202 0 
+C 6.519202 -1.728913 5.832298 -3.387246 4.609772 -4.609772 
+C 3.387246 -5.832298 1.728913 -6.519202 0 -6.519202 
+C -1.728913 -6.519202 -3.387246 -5.832298 -4.609772 -4.609772 
+C -5.832298 -3.387246 -6.519202 -1.728913 -6.519202 0 
+C -6.519202 1.728913 -5.832298 3.387246 -4.609772 4.609772 
+C -3.387246 5.832298 -1.728913 6.519202 0 6.519202 
 z
 " style="stroke: #2c5f8a"/>
     </defs>
-    <g clip-path="url(#pe5743bbb0c)">
-     <use xlink:href="#mc91ae3d1d0" x="314.1" y="181.836" style="fill: #2c5f8a; stroke: #2c5f8a"/>
+    <g clip-path="url(#p6530269b34)">
+     <use xlink:href="#m6cbf3e14d4" x="331.191133" y="181.836" style="fill: #2c5f8a; stroke: #2c5f8a"/>
     </g>
    </g>
    <g id="text_5">
     <!-- 第二代 2024–2025 -->
-    <g style="fill: #1a1a2e" transform="translate(261.337813 155.6406) scale(0.11 -0.11)">
+    <g style="fill: #1a1a2e" transform="translate(261.640977 152.73) scale(0.145 -0.145)">
      <defs>
       <path id="HiraginoSansGB-W3-4e8c" d="M 1024 4051 
 C 1235 4077 1478 4090 1850 4090 
@@ -2089,7 +2089,7 @@ z
    </g>
    <g id="text_6">
     <!-- 词汇污染+语体错位 -->
-    <g style="fill: #2c5f8a" transform="translate(253.508438 109.071) scale(0.14 -0.14)">
+    <g style="fill: #2c5f8a" transform="translate(253.287695 106.1604) scale(0.18 -0.18)">
      <defs>
       <path id="HiraginoSansGB-W3-8bcd" d="M 1190 480 
 C 1171 339 1114 269 966 211 
@@ -2684,7 +2684,7 @@ z
    </g>
    <g id="text_7">
     <!-- delve 28倍 · AI新八股 · 赛博抒情 -->
-    <g style="fill: #1a1a2e" transform="translate(235.364297 71.2332) scale(0.095 -0.095)">
+    <g style="fill: #1a1a2e" transform="translate(227.591523 68.3226) scale(0.125 -0.125)">
      <defs>
       <path id="HiraginoSansGB-W3-6c" d="M 454 4902 
 C 486 4672 499 4499 499 4186 
@@ -3479,7 +3479,7 @@ z
    </g>
    <g id="text_8">
     <!-- 本质：亮（风格词超频） -->
-    <g style="fill: #2c5f8a" transform="translate(261.85 208.0314) scale(0.095 -0.095)">
+    <g style="fill: #2c5f8a" transform="translate(262.441133 210.942) scale(0.125 -0.125)">
      <defs>
       <path id="HiraginoSansGB-W3-4eae" d="M 1062 4742 
 C 794 4742 589 4755 422 4781 
@@ -3889,25 +3889,25 @@ z
    </g>
    <g id="PathCollection_3">
     <defs>
-     <path id="m32390a957c" d="M 0 5.477226 
-C 1.452577 5.477226 2.845856 4.900111 3.872983 3.872983 
-C 4.900111 2.845856 5.477226 1.452577 5.477226 0 
-C 5.477226 -1.452577 4.900111 -2.845856 3.872983 -3.872983 
-C 2.845856 -4.900111 1.452577 -5.477226 0 -5.477226 
-C -1.452577 -5.477226 -2.845856 -4.900111 -3.872983 -3.872983 
-C -4.900111 -2.845856 -5.477226 -1.452577 -5.477226 0 
-C -5.477226 1.452577 -4.900111 2.845856 -3.872983 3.872983 
-C -2.845856 4.900111 -1.452577 5.477226 0 5.477226 
+     <path id="mc004835952" d="M 0 6.519202 
+C 1.728913 6.519202 3.387246 5.832298 4.609772 4.609772 
+C 5.832298 3.387246 6.519202 1.728913 6.519202 0 
+C 6.519202 -1.728913 5.832298 -3.387246 4.609772 -4.609772 
+C 3.387246 -5.832298 1.728913 -6.519202 0 -6.519202 
+C -1.728913 -6.519202 -3.387246 -5.832298 -4.609772 -4.609772 
+C -5.832298 -3.387246 -6.519202 -1.728913 -6.519202 0 
+C -6.519202 1.728913 -5.832298 3.387246 -4.609772 4.609772 
+C -3.387246 5.832298 -1.728913 6.519202 0 6.519202 
 z
 " style="stroke: #c0392b"/>
     </defs>
-    <g clip-path="url(#pe5743bbb0c)">
-     <use xlink:href="#m32390a957c" x="528.93" y="181.836" style="fill: #c0392b; stroke: #c0392b"/>
+    <g clip-path="url(#p6530269b34)">
+     <use xlink:href="#mc004835952" x="546.021133" y="181.836" style="fill: #c0392b; stroke: #c0392b"/>
     </g>
    </g>
    <g id="text_9">
     <!-- 第三代 2025–2026 -->
-    <g style="fill: #1a1a2e" transform="translate(476.189297 155.6406) scale(0.11 -0.11)">
+    <g style="fill: #1a1a2e" transform="translate(476.499297 152.73) scale(0.145 -0.145)">
      <defs>
       <path id="HiraginoSansGB-W3-4e09" d="M 922 4378 
 C 1126 4403 1318 4416 1658 4416 
@@ -3984,7 +3984,7 @@ z
    </g>
    <g id="text_10">
     <!-- 思维链外显 -->
-    <g style="fill: #c0392b" transform="translate(493.93 109.071) scale(0.14 -0.14)">
+    <g style="fill: #c0392b" transform="translate(501.021133 106.1604) scale(0.18 -0.18)">
      <defs>
       <path id="HiraginoSansGB-W3-601d" d="M 5402 4403 
 C 5402 4698 5408 4858 5427 5024 
@@ -4385,7 +4385,7 @@ z
    </g>
    <g id="text_11">
     <!-- 内心戏成内容 · 界面残留入卷 · agent痕迹 -->
-    <g style="fill: #1a1a2e" transform="translate(433.237539 71.2332) scale(0.095 -0.095)">
+    <g style="fill: #1a1a2e" transform="translate(420.11 68.3226) scale(0.125 -0.125)">
      <defs>
       <path id="HiraginoSansGB-W3-5185" d="M 2931 4006 
 C 2842 3264 2662 2790 2304 2342 
@@ -5307,7 +5307,7 @@ z
    </g>
    <g id="text_12">
     <!-- 本质：过程（草稿纸交上来） -->
-    <g style="fill: #c0392b" transform="translate(467.18 208.0314) scale(0.095 -0.095)">
+    <g style="fill: #c0392b" transform="translate(464.771133 210.942) scale(0.125 -0.125)">
      <defs>
       <path id="HiraginoSansGB-W3-8fc7" d="M 1299 845 
 C 1222 819 1114 755 941 634 
@@ -5867,18 +5867,18 @@ z
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 150.370611 36.306 
-Q 206.684601 36.306 261.209737 36.306 
-" style="fill: none; stroke: #c9a227; stroke-width: 1.6; stroke-linecap: round"/>
-    <path d="M 257.209737 34.306 
-L 261.209737 36.306 
-L 257.209737 38.306 
+    <path d="M 167.461744 33.3954 
+Q 223.775734 33.3954 277.630049 33.3954 
+" style="fill: none; stroke: #c9a227; stroke-width: 2.2; stroke-linecap: round"/>
+    <path d="M 273.630049 31.3954 
+L 277.630049 33.3954 
+L 273.630049 35.3954 
 z
-" style="fill: #c9a227; stroke: #c9a227; stroke-width: 1.6; stroke-linecap: round"/>
+" style="fill: #c9a227; stroke: #c9a227; stroke-width: 2.2; stroke-linecap: round"/>
    </g>
    <g id="text_13">
     <!-- 消除上一代味，同时制造新味 -->
-    <g style="fill: #c9a227" transform="translate(151.435 25.82784) scale(0.085 -0.085)">
+    <g style="fill: #c9a227" transform="translate(149.026133 20.00664) scale(0.115 -0.115)">
      <defs>
       <path id="HiraginoSansGB-W3-6d88" d="M 4122 3565 
 L 4122 4781 
@@ -6407,18 +6407,18 @@ z
     </g>
    </g>
    <g id="patch_4">
-    <path d="M 365.200611 36.306 
-Q 421.514601 36.306 476.039737 36.306 
-" style="fill: none; stroke: #c9a227; stroke-width: 1.6; stroke-linecap: round"/>
-    <path d="M 472.039737 34.306 
-L 476.039737 36.306 
-L 472.039737 38.306 
+    <path d="M 382.291744 33.3954 
+Q 438.605734 33.3954 492.460049 33.3954 
+" style="fill: none; stroke: #c9a227; stroke-width: 2.2; stroke-linecap: round"/>
+    <path d="M 488.460049 31.3954 
+L 492.460049 33.3954 
+L 488.460049 35.3954 
 z
-" style="fill: #c9a227; stroke: #c9a227; stroke-width: 1.6; stroke-linecap: round"/>
+" style="fill: #c9a227; stroke: #c9a227; stroke-width: 2.2; stroke-linecap: round"/>
    </g>
    <g id="text_14">
     <!-- 消除上一代味，同时制造新味 -->
-    <g style="fill: #c9a227" transform="translate(366.265 25.82784) scale(0.085 -0.085)">
+    <g style="fill: #c9a227" transform="translate(363.856133 20.00664) scale(0.115 -0.115)">
      <use xlink:href="#HiraginoSansGB-W3-6d88"/>
      <use xlink:href="#HiraginoSansGB-W3-9664" x="99.999985"/>
      <use xlink:href="#HiraginoSansGB-W3-4e0a" x="199.999969"/>
@@ -6437,8 +6437,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe5743bbb0c">
-   <rect x="7.2" y="7.2" width="613.8" height="232.848"/>
+  <clipPath id="p6530269b34">
+   <rect x="24.291133" y="7.2" width="613.8" height="232.848"/>
   </clipPath>
  </defs>
 </svg>
